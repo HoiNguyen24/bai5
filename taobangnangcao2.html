@@ -3,9 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        #Day-Calendar{
+            width: 400px;
+            border-collapse: collapse;
+        }
+     #Day-Calendar  td {
+         border: 2px solid gray;
+         text-align: center;
+
+     }
+     #Day-Name{
+         width: 400px;
+         border-collapse: collapse;
+
+     }
+     #Day-Name td{
+         border: 1px solid white;
+         text-align: center;
+     }
+     #Day-Vietnamese {
+         background-color: Orange;
+         color: white;
+     }
+
+     .Sun {
+         color:red;
+     }
+     .Sat {
+         color:blue
+     }
+     #Sunday {
+         background-color: red;
+     }
+     #Saturday {
+         background-color: blue;
+     }
+     #caption {
+         color:blue;
+         margin-left:100px;
+     }
+    </style>
 </head>
 <body>
-  <h2>Tháng 10 - October  </h2>
-
+  <h2 id="caption">Tháng 10 - October  </h2>
+  <table id="Day-Name">
+      <tr id="Day-Vietnamese">
+          <td id="Sunday">C.Nhật</td>
+          <td>T.Hai</td>
+          <td>T.Ba</td>
+          <td>T.Tư</td>
+          <td>T.Năm</td>
+          <td>T.Sáu</td>
+          <td id="Saturday">T.Bảy</td>
+      </tr>
+      <tr id="Day-English">
+          <td class="Sun">Sun</td>
+          <td>Mon</td>
+          <td>Tue</td>
+          <td>Wed</td>
+          <td>Thu</td>
+          <td>Fri</td>
+          <td class="Sat">Sat</td>
+      </tr>
+  </table>
+<table id="Day-Calendar">
+    <tr>
+        <td class="Sun"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+        <td>2</td>
+        <td class="Sat">3</td>
+    </tr>
+    <tr>
+        <td class="Sun">4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td class="Sat">10</td>
+    </tr>
+    <tr>
+        <td class="Sun">11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+        <td class="Sat">17</td>
+    </tr>
+    <tr>
+        <td class="Sun">18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td class="Sat">24</td>
+    </tr>
+    <tr>
+        <td class="Sun">25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+        <td class="Sat">31</td>
+    </tr>
+    
+</table>
 </body>
 </html>
